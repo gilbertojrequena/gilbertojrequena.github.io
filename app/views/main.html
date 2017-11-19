@@ -5,7 +5,7 @@
     <div class="bg-image animated infinite zooming"><img src="app/images/photos/it-bg01.jpg" alt="..."></div>
 
     <div class="container container-wide v-bottom padding-v-80">
-      <img ng-src="app/images/photos/avatar-1.jpg" alt="..." class="img-circle margin-b-30">
+      <img ng-src="{{main.resume.basics.picture}}" alt="..." class="img-circle margin-b-30">
       <h1 class="text-lg margin-b-0">{{'title.greetings' | translate}} <strong>{{main.resume.basics.name}}</strong></h1>
       <h5 class="text-tertiary margin-b-40">{{main.resume.basics.label}}</h5>
       <span data-target="local-scroll"><a href="#resume" class="btn btn-lg btn-primary"><span>{{'title.go.to.resume' | translate}}</span>
@@ -96,7 +96,7 @@
                   <span></span>
                 </div>
               </div>
-              <strong>{{language.name | translate}}</strong>
+              <strong>{{language.language}}</strong>
             </div>
           </div>
 
