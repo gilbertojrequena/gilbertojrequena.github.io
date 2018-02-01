@@ -1,0 +1,348 @@
+{
+  "basics": {
+    "name": "Gilberto J Requena",
+    "label": "Computer Engineer / Full Stack Developer",
+    "picture": "https://s.gravatar.com/avatar/27763619032419d14969512be135f71b?s=100&r=pg&d=mm",
+    "email": "mailtogilberto@gmail.com",
+    "phone": "+49 152 22538335",
+    "website": "www.gilbertojrequena.com",
+    "summary": "Computer Engineer with experience in agile software development. I am a passionate software developer always looking for new knowledge, new technologies, and new challenges. I am responsible, and I have initiative to learn and solve problems. \n I always work hard to develop in-time, maintainable, and scalable applications applying the best possible solutions.",
+    "location": {
+      "address": "Vogelweidestr. 5",
+      "postalCode": "81677",
+      "city": "München",
+      "countryCode": "DE",
+      "region": "Baviera",
+      "longitude": "11.565744",
+      "latitude": "48.139446"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gilbertojrequena",
+        "url": "https://cl.linkedin.com/in/gilbertojrequena/en"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Zooplus",
+      "position": "Java Engineer",
+      "website": "http://www.zooplus.com/content/about",
+      "startDate": "2017-06-01",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "Falabella Financiero",
+      "position": "FullStack Developer",
+      "website": "https://www.linkedin.com/company-beta/3588510/",
+      "startDate": "2017-01-15",
+      "endDate": "2017-04-30",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "Nisum Technologies, Inc.",
+      "position": "Sr. Developer",
+      "website": "http://www.nisum.com/",
+      "startDate": "2015-01-30",
+      "endDate": "2016-12-30",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "myLegal Software",
+      "position": "Freelance Java Developer",
+      "website": "http://mylegalsoftware.com/",
+      "startDate": "2015-02-01",
+      "endDate": "2015-05-30",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "Consis International",
+      "position": "Java Developer",
+      "website": "http://www.consisint.com/",
+      "startDate": "2013-06-01",
+      "endDate": "2015-02-28",
+      "summary": "",
+      "highlights": [
+      ]
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Oriente, Venezuela",
+      "area": "Computer Engineer",
+      "studyType": "Engineering",
+      "startDate": "2006-05-01",
+      "endDate": "2012-04-30",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Coursera",
+      "area": "Control of Mobile Robots",
+      "studyType": "Online Course",
+      "startDate": "2013-03-01",
+      "endDate": "2013-05-30",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "MongoDB University",
+      "area": "MongoDB for Java Developers",
+      "studyType": "Online Course",
+      "startDate": "2013-04-01",
+      "endDate": "2013-04-30",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Oracle",
+      "area": "Java SE 7 Programmer I",
+      "studyType": "Certification",
+      "startDate": "2013-05-01",
+      "endDate": "2013-07-30",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "awards": [
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "90",
+      "keywords": [
+        "Java",
+        "Hibernate",
+        "Spring",
+        "Maven",
+        "Gradle",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Spring Framework",
+      "level": "80",
+      "keywords": [
+        "Java",
+        "Framework",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "70",
+      "keywords": [
+        "Java",
+        "Framework",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Hibernate",
+      "level": "75",
+      "keywords": [
+        "Java",
+        "ORM",
+        "Database"
+      ]
+    },
+    {
+      "name": "REST",
+      "level": "80",
+      "keywords": [
+        "API",
+        "REST",
+        "HTTP",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "80",
+      "keywords": [
+        "Database",
+        "SQL",
+        "Relational"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "65",
+      "keywords": [
+        "Container",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "80",
+      "keywords": [
+        "Front end",
+        "AngularJS",
+        "Grunt",
+        "Jasmin",
+        "Protractor"
+      ]
+    },
+    {
+      "name": "AngularJS",
+      "level": "85",
+      "keywords": [
+        "Javascript",
+        "Grunt",
+        "Jasmin",
+        "Protractor"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker",
+      "percentage": 100
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced",
+      "percentage": 75
+    }
+  ],
+  "interests": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Java",
+        "Groovy",
+        "Javascript",
+        "Python"
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Metal",
+        "Animals as Leaders",
+        "Intervals",
+        "Dream Theater",
+        "Ozzy Osbourne",
+        "Bad Religion",
+        "Progressive",
+        "Angra",
+        "Electronic"
+      ]
+    },
+    {
+      "name": "Gamming",
+      "keywords": [
+        "Dota",
+        "CS",
+        "Starcraft"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Rafael Robles",
+      "reference": "I recommend Gilberto in every possible professional way. He is an expert in Software Development who reached that level by studying and working hard which I have witness myself. He is a nice to have co-worker, very technically capable, and committed to do the job and do it well",
+      "position": "Java Senior Developer",
+      "website": "cr.linkedin.com/in/rafaelsk",
+      "picture": "rafaelsk-in.jpg",
+      "projectId": "1"
+    },
+    {
+      "name": "Marlon Trujillo",
+      "reference": "I had the pleasure of working with Gilberto for one year at the Universidad de Oriente, collaborating on the main project for postgrade department. I was particularly impressed by Gilberto’s ability to handle even the toughest requests—and effortlessly. That skill often takes years to develop among professionals, but it seemed to come perfectly naturally to him, he would be an asset to any team",
+      "position": "Software Engineer",
+      "website": "ve.linkedin.com/in/marlontrujillo1080",
+      "picture": "marlontrujillo1080-in.jpg"
+    },
+    {
+      "name": "Ivon Tarazona",
+      "reference": "I had the opportunity to work with Gilberto for four years. During that time he exposed not only all his excellent knowledge about coding but his commitment to get the best result for the project we were working on. He would made a tremendous addition to any product development team, always looking to help his coworkers. Excellent and trustworthy person.",
+      "position": "Senior Java Developer",
+      "website": "www.linkedin.com/in/ivon-tarazona-4471b233",
+      "picture": "ivon-in.jpg",
+      "projectId": "1"
+    },
+    {
+      "name": "Ysmar Centeno",
+      "reference": "Gilberto is great professional, with an excellent technical level and communication skills, his performance is outstanding. He always finds the best solutions for any problem, and he has always bandwidth to help other team members. Every team needs someone like him, I totally recommend him for any challenge.",
+      "position": "Senior Java Developer",
+      "website": "cl.linkedin.com/in/ysmar-centeno-9a78b494",
+      "picture": "ysmar-in.jpg"
+    },
+    {
+      "name": "Lino Hernández",
+      "reference": "Gilberto is a great coworker to have around. He\"s contagiously passionate about technology and has a great attitude towards work. His technical skills and problem solving abilities are really strong, so he can always be trusted to solve the most complex of tasks.",
+      "position": "Principal Developer",
+      "website": "cl.linkedin.com/in/lino-hernández-b1146559",
+      "picture": "lino-in.jpg"
+    },
+    {
+      "name": "Paz Mardones",
+      "reference": "Gilberto is a very proactive and dedicated person, his team spirit made every day enjoyable to work. As a professional was always researching the best way to give a solution, suggesting best practices of coding and motivating the rest of the team to follow them. Since he is a very independent and strong professional, I would highly recommend him to build agile teams with high level of performance.",
+      "position": "Agilist / Scrum Master",
+      "website": "cl.linkedin.com/in/paz-mardones-espinosa-04003797/en",
+      "picture": "paz-in.jpg"
+    }
+  ],
+  "traits": [
+    {
+      "name": "Backend Development",
+      "description": "Scalable, maintainable, neat, and well tested",
+      "key": "backend"
+    },
+    {
+      "name": "Web application Development",
+      "description": "Fast, elegant, maintainable, neat, and well tested",
+      "key": "web-applications"
+    },
+    {
+      "name": "Better solution",
+      "description": "Always looking to give the best solution",
+      "key": "solutions"
+    },
+    {
+      "name": "Good communicator",
+      "description": "Always giving the right message",
+      "key": "communication"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Acsel-e",
+      "title": "Acsel-e",
+      "companyDescription": "Acsel-e is a framework designed for total flexibility to work across geographies providing the relationship among Insurance concepts and the Insurance core functions and capabilities to facilitate business innovation and ease of implementation. It is based on solid components which provides the building blocks for your own designed solution. This is Business Transformation via modeling and configuration of any element of the Insurance Architecture and also a Development Accelerator.",
+      "description": "I was part of the development team of this application for a year and a half, I faced a variety of challenges that includes handle big amount of data, solve performance problems, learn about the business of insurance companies. Some of the activities I did in this project are the following:&lt;ul&gt;&lt;li&gt;Develop functionalities for the main application using technologies as java EE, Hibernate, Struts, Spring Framework, Vaadin, Wicket, Oracle database&lt;/li&gt;&lt;li&gt;Provide analysis and implementation of solutions for issues&lt;/li&gt;&lt;li&gt;Develop and documenting RESTful services&lt;/li&gt;&lt;li&gt;Development of batch processes for mass registration of policies and claims&lt;/li&gt;&lt;li&gt;Collection and analysis of requirements&lt;/li&gt;&lt;li&gt;Be part of a team for the analysis and implementation of performance enhancements for some critical operations of the application using tools as jprofiler, Oracle Enterprise Manager, ehCache&lt;/li&gt;&lt;li&gt;Administration and deploy in Weblogic and Websphere application servers&lt;/li&gt;&lt;/ul&gt;"
+    },
+    {
+      "name": "MyLegal Software",
+      "title": "MyLegal Software",
+      "companyDescription": "MyLegalSoftware is an efficient practice management tool designed to satisfy all needs of your law firm. It provides a well-organized platform for communication, accounting, reporting, event and appointment management, CRM and much more.",
+      "description": "My main responsibilities in this project were:&lt;ul&gt; &lt;li&gt;Develop new functionalities for the MyLegalSoftware application using technologies as Java, Spring Framework, Spring MVC, javascript, jQuery, Hibernate, Quartz scheduler, MySQL&lt;/li&gt;&lt;li&gt;Develop batch jobs to accomplish business tasks&lt;/li&gt;  &lt;li&gt;Add new features in the mobile application page  &lt;/li&gt;  &lt;li&gt;Provide analisis and solutions for issues present on the application&lt;/li&gt;  &lt;/ul&gt;"
+    },
+    {
+      "name": "La Oferta y la demanda",
+      "title": "La Oferta y la demanda",
+      "companyDescription": "La oferta y la demanda es una guía Comercial de Ofertas impresa de distribución localizada y de exposición selectiva, creada para ofrecer al mercado una alternativa publicitaria de baja inversión y de alto impacto, combinando para ello asesoría publicitara profesional, excelente diseño gráfico y un medio de alto tiraje y alcance, que le brinda a nuestros anunciantes la efectividad necesaria para el máximo retorno de su inversión.",
+      "description": "I worked as a developer of this site using PHP, Yii Framework, javascript and html."
+    }
+  ]
+}
