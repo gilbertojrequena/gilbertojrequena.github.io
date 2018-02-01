@@ -1,106 +1,501 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-
-    <title>Gilberto J Requena</title>
-
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="app/images/favicon.png">
-    <link rel="apple-touch-icon" href="app/images/favicon_60x60.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="app/images/favicon_76x76.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="app/images/favicon_120x120.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="app/images/favicon_152x152.png">
-
-    <!-- Google Web Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300,100' rel='stylesheet' type='text/css'>
-
-    <!-- CSS Styles -->
-    <link rel="stylesheet" href="app/css/styles.css"/>
-
-    <!-- CSS Code HighLighter -->
-    <link rel="stylesheet" href="app/css/prettify.css"/>
-
-    <!-- CSS Template -->
-    <link rel="stylesheet" href="app/css/theme.min.css"/>
-    <link rel="stylesheet" href="app/css/color/blue-beige.css" id="color"/>
-
-    <base href="/">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <title>Gilberto J Requena</title>
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon_60x60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon_120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon_152x152.png">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300,100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+  <link rel="stylesheet" href="assets/css/theme.min.css"/>
+  <link rel="stylesheet" href="assets/css/color/blue-beige.css" id="color"/>
 </head>
-
-<body class="bg-grey">
-
+<body class="bg-white">
 <div id="page-loader" class="bg-white"></div>
-
-<div ng-view="">
-
+<div id="content" class="bg-white">
+  <section id="start" class="section fullheight bg-secondary dark padding-v-60">
+    <div class="bg-image animated infinite zooming"><img src="assets/img/photos/it-bg01.jpg" alt="..."></div>
+    <div class="container container-wide v-bottom padding-v-80">
+      <img src="https://s.gravatar.com/avatar/27763619032419d14969512be135f71b?s=100&r=pg&d=mm" alt="..."
+           class="img-circle margin-b-30">
+      <h1 class="text-lg margin-b-0">Hi! I’m <strong>Gilberto J Requena</strong></h1>
+      <h5 class="text-tertiary margin-b-40">Computer Engineer / Full Stack Developer</h5>
+      <span data-target="local-scroll"><a href="#resume"
+                                          class="btn btn-lg btn-primary"><span>Give a look to my resume!</span><i
+        class="ti-arrow-down"></i></a></span>
+    </div>
+  </section>
+  <section id="resume" class="section padding-v-60">
+    <div class="container container-wide">
+      <h6 class="margin-b-50">Resume</h6>
+      <div class="row padding-lg">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="resume-box">
+            <span class="icon animated" data-animation="fadeInDown"><i class="ti-comment-alt text-tertiary"></i></span>
+            <h4><strong>About</strong> Me</h4>
+            <p class="lead">Computer Engineer with experience in agile software development. I am a passionate software
+              developer always looking for new knowledge, new technologies, and new challenges. I am responsible, and I
+              have initiative to learn and solve problems..</p>
+            <p>I always work hard to develop in-time, maintainable, and scalable applications applying the best possible
+              solutions.</p>
+          </div>
+          <div class="resume-box">
+            <span class="icon animated" data-animation="fadeInDown"><i class="ti-cup text-tertiary"></i></span>
+            <h4><strong>Skills</strong> &amp; abilities</h4>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>Java</strong>
+            </div>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>Spring Framework</strong>
+            </div>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>Spring Boot</strong>
+            </div>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>Hibernate</strong>
+            </div>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>REST</strong>
+            </div>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>SQL</strong>
+            </div>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>Docker</strong>
+            </div>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>Javascript</strong>
+            </div>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>AngularJS</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="resume-box">
+            <span class="icon animated" data-animation="fadeInDown"><i class="ti-target text-tertiary"></i></span>
+            <h4>My <strong>Specialities</strong></h4>
+            <div class="speciality">
+              <span class="speciality-icon"><i class="text-muted-2x ti-server"></i></span>
+              <div class="speciality-content">
+                <h5 class="margin-b-0">Backend Development</h5>
+                <p class="speciaity-description">Scalable, maintainable, neat, and well tested</p>
+              </div>
+            </div>
+            <div class="speciality">
+              <span class="speciality-icon"><i class="text-muted-2x ti-layers-alt"></i></span>
+              <div class="speciality-content">
+                <h5 class="margin-b-0">Web application Development</h5>
+                <p class="speciaity-description">Fast, elegant, maintainable, neat, and well tested</p>
+              </div>
+            </div>
+            <div class="speciality">
+              <span class="speciality-icon"><i class="text-muted-2x ti-wand"></i></span>
+              <div class="speciality-content">
+                <h5 class="margin-b-0">Better solution</h5>
+                <p class="speciaity-description">Always looking to give the best solution</p>
+              </div>
+            </div>
+            <div class="speciality">
+              <span class="speciality-icon"><i class="text-muted-2x ti-comments-smiley"></i></span>
+              <div class="speciality-content">
+                <h5 class="margin-b-0">Good communicator</h5>
+                <p class="speciaity-description">Always giving the right message</p>
+              </div>
+            </div>
+          </div>
+          <div class="resume-box">
+            <span class="icon animated" data-animation="fadeInDown"><i class="ti-ruler-alt-2 text-tertiary"></i></span>
+            <h4><strong>Education</strong></h4>
+            <div class="timeline">
+              <div class="timeline-event te-primary">
+                <span class="event-date">2006-05-01 - 2012-04-30</span>
+                <span class="event-name">Computer Engineer</span>
+                <span class="event-description">Universidad de Oriente, Venezuela</span>
+              </div>
+              <div class="timeline-event te-primary">
+                <span class="event-date">2013-03-01 - 2013-05-30</span>
+                <span class="event-name">Control of Mobile Robots</span>
+                <span class="event-description">Coursera</span>
+              </div>
+              <div class="timeline-event te-primary">
+                <span class="event-date">2013-04-01 - 2013-04-30</span>
+                <span class="event-name">MongoDB for Java Developers</span>
+                <span class="event-description">MongoDB University</span>
+              </div>
+              <div class="timeline-event te-primary">
+                <span class="event-date">2013-05-01 - 2013-07-30</span>
+                <span class="event-name">Java SE 7 Programmer I</span>
+                <span class="event-description">Oracle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="resume-box">
+            <span class="icon animated" data-animation="fadeInDown"><i class="ti-comments text-tertiary"></i></span>
+            <h4><strong>Language</strong> skills</h4>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>Spanish</strong>
+            </div>
+            <div class="skill">
+              <div class="progress progress-animated">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                     aria-valuemax="100">
+                  <span></span>
+                </div>
+              </div>
+              <strong>English</strong>
+            </div>
+          </div>
+          <div class="resume-box">
+							<span class="icon animated" data-animation="fadeInDown"><i
+                class="ti-briefcase text-tertiary"></i></span>
+            <h4><strong>Jobs</strong></h4>
+            <div class="timeline">
+              <div class="timeline-event te-primary">
+                <span class="event-date">2017-06-01 - Now</span>
+                <span class="event-name">Java Engineer</span>
+                <span class="event-description">Zooplus</span>
+                <a class="event-description" target="_blank" ng-href="http://www.zooplus.com/content/about">http://www.zooplus.com/content/about</a>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-event te-primary">
+                <span class="event-date">2017-01-15 - 2017-04-30</span>
+                <span class="event-name">FullStack Developer</span>
+                <span class="event-description">Falabella Financiero</span>
+                <a class="event-description" target="_blank" ng-href="https://www.linkedin.com/company/3588510/">https://www.linkedin.com/company/3588510/</a>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-event te-primary">
+                <span class="event-date">2015-01-30 - 2016-12-30</span>
+                <span class="event-name">Sr. Developer</span>
+                <span class="event-description">Nisum Technologies, Inc.</span>
+                <a class="event-description" target="_blank" ng-href="http://www.nisum.com/">http://www.nisum.com/</a>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-event te-primary">
+                <span class="event-date">2015-02-01 - 2015-05-30</span>
+                <span class="event-name">Freelance Java Developer</span>
+                <span class="event-description">myLegal Software</span>
+                <a class="event-description" target="_blank" ng-href="http://mylegalsoftware.com/">http://mylegalsoftware.com/</a>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-event te-primary">
+                <span class="event-date">2013-06-01 - 2015-02-28</span>
+                <span class="event-name">Java Developer</span>
+                <span class="event-description">Consis International</span>
+                <a class="event-description" target="_blank" ng-href="http://www.consisint.com/">http://www.consisint.com/</a>
+              </div>
+            </div>
+          </div>
+          <div class="resume-box">
+            <span class="icon animated" data-animation="fadeInDown"><i class="ti-music-alt text-tertiary"></i></span>
+            <h4><strong>Hobbies</strong> &amp; Interests</h4>
+            <ul class="list-inline">
+              <li>
+                <div class="icon-box text-center">
+                  <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-desktop"></i></span>
+                  <span class="title">Programming</span>
+                </div>
+              </li>
+              <li>
+                <div class="icon-box text-center">
+                  <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-music-alt"></i></span>
+                  <span class="title">Music</span>
+                </div>
+              </li>
+              <li>
+                <div class="icon-box text-center">
+                  <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-game"></i></span>
+                  <span class="title">Gamming</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="testimonials" class="section bg-primary dark padding-v-60">
+    <div class="container container-wide"><h1 class="margin-b-0 ng-binding"><strong class="ng-binding">6</strong> years
+      of experience - <strong
+        class="ng-binding">over
+        <span count-to="280000000" value="328400" duration="2800000000" class="ng-scope">328409</span></strong>
+      lines of code!
+    </h1>
+      <div class="">
+        <h5 class="text-muted margin-b-60 ng-binding">Look what my coworkers say about me!</h5>
+        <div class="row padding-lg">
+          <div class="col-lg-4 col-sm-6 ng-scope">
+            <div class="testimonial testimonial-dark ng-scope">
+              <div class="testimonial-content font-alt ng-binding">
+                I recommend Gilberto in every possible professional way. He is an expert in Software Development who
+                reached that level by studying and working hard which I have witness myself. He is a nice to have
+                co-worker, very technically capable, and committed to do the job and do it well
+              </div>
+              <div class="testimonial-author testimonial-with-photo">
+                <div class="testimonial-photo animated zoomIn visible" data-animation="zoomIn">
+                  <img class="img-circle" ng-src="app/images/photos/rafaelsk-in.jpg" alt=""
+                       src="app/images/photos/rafaelsk-in.jpg"></div>
+                <div class="testimonial-author-txt">
+                  <span class="name ng-binding">Rafael Robles</span>
+                  <span class="caption text-secondary ng-binding">Java Senior Developer</span>
+                  <a class="linked-in-url text-secondary ng-binding" target="_blank"
+                     href="https://cr.linkedin.com/in/rafaelsk">cr.linkedin.com/in/rafaelsk</a>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial testimonial-dark ng-scope">
+              <div class="testimonial-content font-alt ng-binding">
+                I had the pleasure of working with Gilberto for one year at the Universidad de Oriente, collaborating on
+                the main project for postgrade department. I was particularly impressed by Gilberto’s ability to handle
+                even the toughest requests—and effortlessly. That skill often takes years to develop among
+                professionals, but it seemed to come perfectly naturally to him, he would be an asset to any team
+              </div>
+              <div class="testimonial-author testimonial-with-photo">
+                <div class="testimonial-photo animated zoomIn visible" data-animation="zoomIn">
+                  <img class="img-circle" ng-src="app/images/photos/marlontrujillo1080-in.jpg" alt=""
+                       src="app/images/photos/marlontrujillo1080-in.jpg"></div>
+                <div class="testimonial-author-txt">
+                  <span class="name ng-binding">Marlon Trujillo</span>
+                  <span class="caption text-secondary ng-binding">Software Engineer</span>
+                  <a class="linked-in-url text-secondary ng-binding" target="_blank"
+                     href="https://ve.linkedin.com/in/marlontrujillo1080">ve.linkedin.com/in/marlontrujillo1080</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 ng-scope">
+            <div class="testimonial testimonial-dark ng-scope">
+              <div class="testimonial-content font-alt ng-binding">
+                I had the opportunity to work with Gilberto for four years. During that time he exposed not only all his
+                excellent knowledge about coding but his commitment to get the best result for the project we were
+                working on. He would made a tremendous addition to any product development team, always looking to help
+                his coworkers. Excellent and trustworthy person.
+              </div>
+              <div class="testimonial-author testimonial-with-photo">
+                <div class="testimonial-photo animated zoomIn visible" data-animation="zoomIn">
+                  <img class="img-circle" ng-src="app/images/photos/ivon-in.jpg" alt=""
+                       src="app/images/photos/ivon-in.jpg"></div>
+                <div class="testimonial-author-txt">
+                  <span class="name ng-binding">Ivon Tarazona</span>
+                  <span class="caption text-secondary ng-binding">Senior Java Developer</span>
+                  <a class="linked-in-url text-secondary ng-binding" target="_blank"
+                     href="https://www.linkedin.com/in/ivon-tarazona-4471b233">www.linkedin.com/in/ivon-tarazona-4471b233</a>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial testimonial-dark ng-scope">
+              <div class="testimonial-content font-alt ng-binding">
+                Gilberto is great professional, with an excellent technical level and communication skills, his
+                performance is outstanding. He always finds the best solutions for any problem, and he has always
+                bandwidth to help other team members. Every team needs someone like him, I totally recommend him for any
+                challenge.
+              </div>
+              <div class="testimonial-author testimonial-with-photo">
+                <div class="testimonial-photo animated zoomIn visible" data-animation="zoomIn">
+                  <img class="img-circle" ng-src="app/images/photos/ysmar-in.jpg" alt=""
+                       src="app/images/photos/ysmar-in.jpg"></div>
+                <div class="testimonial-author-txt">
+                  <span class="name ng-binding">Ysmar Centeno</span>
+                  <span class="caption text-secondary ng-binding">Senior Java Developer</span>
+                  <a class="linked-in-url text-secondary ng-binding" target="_blank"
+                     href="https://cl.linkedin.com/in/ysmar-centeno-9a78b494">cl.linkedin.com/in/ysmar-centeno-9a78b494</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 ng-scope">
+            <div class="testimonial testimonial-dark ng-scope">
+              <div class="testimonial-content font-alt ng-binding">
+                Gilberto is a great coworker to have around. He"s contagiously passionate about technology and has a
+                great attitude towards work. His technical skills and problem solving abilities are really strong, so he
+                can always be trusted to solve the most complex of tasks.
+              </div>
+              <div class="testimonial-author testimonial-with-photo">
+                <div class="testimonial-photo animated zoomIn visible" data-animation="zoomIn">
+                  <img class="img-circle" ng-src="app/images/photos/lino-in.jpg" alt=""
+                       src="app/images/photos/lino-in.jpg"></div>
+                <div class="testimonial-author-txt">
+                  <span class="name ng-binding">Lino Hernández</span>
+                  <span class="caption text-secondary ng-binding">Principal Developer</span>
+                  <a class="linked-in-url text-secondary ng-binding" target="_blank"
+                     href="https://cl.linkedin.com/in/lino-hernández-b1146559">cl.linkedin.com/in/lino-hernández-b1146559</a>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial testimonial-dark ng-scope">
+              <div class="testimonial-content font-alt ng-binding">
+                Gilberto is a very proactive and dedicated person, his team spirit made every day enjoyable to work. As
+                a professional was always researching the best way to give a solution, suggesting best practices of
+                coding and motivating the rest of the team to follow them. Since he is a very independent and strong
+                professional, I would highly recommend him to build agile teams with high level of performance.
+              </div>
+              <div class="testimonial-author testimonial-with-photo">
+                <div class="testimonial-photo animated zoomIn visible" data-animation="zoomIn">
+                  <img class="img-circle" ng-src="app/images/photos/paz-in.jpg" alt=""
+                       src="app/images/photos/paz-in.jpg"></div>
+                <div class="testimonial-author-txt">
+                  <span class="name ng-binding">Paz Mardones</span>
+                  <span class="caption text-secondary ng-binding">Agilist / Scrum Master</span>
+                  <a class="linked-in-url text-secondary ng-binding" target="_blank"
+                     href="https://cl.linkedin.com/in/paz-mardones-espinosa-04003797/en">cl.linkedin.com/in/paz-mardones-espinosa-04003797/en</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section padding-v-60 min-fullheight">
+    <div id="google-map" class="bg-image" data-latitude="40.758895" data-longitude="-73.985131"
+         data-style="light"></div>
+    <div class="contact-box bg-secondary dark animated flipInY visible" data-animation="flipInY">
+      <h1 class="ng-binding">Don’t hesitate to <strong class="ng-binding">contact me</strong>!</h1>
+      <ul class="list-unstyled list-unstyled-icons">
+        <li class="ng-binding">
+          <i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>
+          München, DE
+        </li>
+        <li>
+          <i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i>
+          <a href="mailto:mailtogilberto@gmail.com?Subject=Hi Gilberto" target="_top" class="ng-binding">mailtogilberto@gmail.com</a>
+        </li>
+        <li>
+          <i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>
+          <a href="tel:+49 152 22538335" class="ng-binding">+49 152 22538335</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://cl.linkedin.com/in/gilbertojrequena/en" class="icon icon-xs">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
 </div>
-
-<script type="text/javascript" src="app/libs/jquery/jquery.js"></script>
-<script type="text/javascript" src="app/libs/angular/angular.js"></script>
-<script type="text/javascript" src="app/libs/angular-animate/angular-animate.js"></script>
-<script type="text/javascript" src="app/libs/angular-cookies/angular-cookies.js"></script>
-<script type="text/javascript" src="app/libs/angular-messages/angular-messages.js"></script>
-<script type="text/javascript" src="app/libs/angular-resource/angular-resource.js"></script>
-<script type="text/javascript" src="app/libs/angular-route/angular-route.js"></script>
-<script type="text/javascript" src="app/libs/angular-sanitize/angular-sanitize.js"></script>
-<script type="text/javascript" src="app/libs/angular-touch/angular-touch.js"></script>
-<script type="text/javascript" src="app/libs/angular-translate/angular-translate.js"></script>
-<script type="text/javascript" src="app/libs/angular-count-to/count-to.js"></script>
-<script type="text/javascript" src="app/libs/angular-local-storage/angular-local-storage.js"></script>
-
-<script type="text/javascript" src="app/scripts/app.js"></script>
-<script type="text/javascript" src="app/scripts/services/resume-serv.js"></script>
-
-<script type="text/javascript" src="app/scripts/controllers/main.js"></script>
-
-<script type="text/javascript" src="app/scripts/directives.js"></script>
-<script type="text/javascript" src="app/scripts/translations.js"></script>
-
+<a href="#" id="mobile-nav-toggle" class="icon icon-circle icon-sm icon-primary icon-hover" data-target="mobile-nav">
+  <i class="ti-menu"></i>
+</a>
+<nav id="mobile-nav" class="bg-white">
+  <div class="mobile-nav-wrapper">
+    <img src="https://s.gravatar.com/avatar/27763619032419d14969512be135f71b?s=100&r=pg&d=mm" alt="..."
+         class="img-circle margin-b-30">
+    <ul class="nav nav-vertical">
+      <li><a href="#start"><span>Start</span></a></li>
+      <li><a href="#resume"><span>Resume</span></a></li>
+      <li><a href="#testimonials"><span>Testimonials</span></a></li>
+      <li><a href="#contact"><span>Contact</span></a></li>
+    </ul>
+  </div>
+  <a href="#" class="mobile-nav-close icon icon-hover icon-xs icon-circle icon-primary" data-target="mobile-nav"><i
+    class="fa fa-times"></i></a>
+</nav>
+<div id="ajax-modal"></div>
+<div id="ajax-loader"><i class="fa fa-spinner fa-spin"></i></div>
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
 <script>
-    window.paceOptions = {
-        target: '#page-loader',
-        ajax: false
-    };
+  window.paceOptions = {
+    target: '#page-loader',
+    ajax: false
+  };
 </script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/core.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAuFHRkMzdhPcQ3ZPm3MuM0tVjE2xOL5Z4"></script>
 <script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-80336868-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-<script type="text/javascript" src="app/libs/bootstrap.min.js"></script>
-<script type="text/javascript" src="app/libs/imagesloaded.pkgd.js"></script>
-<script type="text/javascript" src="app/libs/isotope.pkgd.js"></script>
-<script type="text/javascript" src="app/libs/jquery.appear.js"></script>
-<script type="text/javascript" src="app/libs/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="app/libs/jquery.easypiechart.js"></script>
-<script type="text/javascript" src="app/libs/jquery.localScroll.js"></script>
-<script type="text/javascript" src="app/libs/jquery.mb.YTPlayer.js"></script>
-<script type="text/javascript" src="app/libs/jquery.scrollTo.js"></script>
-<script type="text/javascript" src="app/libs/jquery.validate.js"></script>
-<script type="text/javascript" src="app/libs/jquery.waypoints.js"></script>
-<script type="text/javascript" src="app/libs/masonry.pkgd.min.js"></script>
-<script type="text/javascript" src="app/libs/owl.carousel.js"></script>
-<script type="text/javascript" src="app/libs/pace.js"></script>
-<script type="text/javascript" src="app/libs/prettify.js"></script>
-<script type="text/javascript" src="app/libs/plugins.js"></script>
-<script type="text/javascript" src="app/libs/core.js"></script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-80336868-1', 'auto');
+  ga('send', 'pageview');</script>
 </body>
-
 </html>
